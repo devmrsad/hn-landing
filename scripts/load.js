@@ -1,4 +1,4 @@
-window.scrollTo(0, 0,)
+window.scrollTo(0, 0)
 
 const protector = document.querySelector(".protector")
 window.addEventListener("load", () => {
@@ -8,8 +8,4 @@ window.addEventListener("load", () => {
             protector.style.display = "none"
         }, 320);
     }, 250);
-})
-
-window.addEventListener("unload", () => {
-    window.scrollTo(0, 0)
 })

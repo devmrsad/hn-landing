@@ -3,18 +3,18 @@ if (typeof Typewriter !== "undefined") {
         document.querySelector(".hero-title"),
         {
             loop: true,
-            delay: 75,
+            delay: 50,
         }
     );
 
     typeWriterHeroTitle
-        .typeString(" تبریک خودکار تولد <span class='highlight'>دانش‌آموزان</span>")
+        .typeString("ارسال پیام تولد <span class='highlight'>دانش‌آموزان</span>")
         .pauseFor(1000)
-        .deleteChars(30)
-        .typeString("ارسال پیام تبریک در کانال <span class='highlight'>ایتا</span>")
+        .deleteChars(16)
+        .typeString("تبریک در کانال <span class='highlight'>ایتا</span>")
         .pauseFor(1000)
-        .deleteChars(32)
-        .typeString("بصورت  هوشمند و خودکار")
+        .deleteChars(19)
+        .typeString("بصورت خودکار")
         .pauseFor(1000)
         .deleteChars(-1)
         .start();
