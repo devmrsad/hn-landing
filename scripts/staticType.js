@@ -1,0 +1,1 @@
+document.querySelector(".hero-title").innerHTML = "تبریک خودکار تولد <span class='highlight'>دانش‌آموزان</span>";

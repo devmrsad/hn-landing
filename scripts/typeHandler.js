@@ -4,11 +4,13 @@ if (typeof Typewriter !== "undefined") {
         {
             loop: true,
             delay: 50,
-        }
+        },
     );
 
     typeWriterHeroTitle
-        .typeString("ارسال پیام تولد <span class='highlight'>دانش‌آموزان</span>")
+        .typeString(
+            "ارسال پیام تولد <span class='highlight'>دانش‌آموزان</span>",
+        )
         .pauseFor(1000)
         .deleteChars(16)
         .typeString("تبریک در کانال <span class='highlight'>ایتا</span>")
@@ -18,7 +20,7 @@ if (typeof Typewriter !== "undefined") {
         .pauseFor(1000)
         .deleteChars(-1)
         .start();
-}
-else {
-    document.querySelector(".hero-title").innerHTML = "تبریک خودکار تولد <span class='highlight'>دانش‌آموزان</span>";
+} else {
+    document.querySelector(".hero-title").innerHTML =
+        "تبریک خودکار تولد <span class='highlight'>دانش‌آموزان</span>";
 }
